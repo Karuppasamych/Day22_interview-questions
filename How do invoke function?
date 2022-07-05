@@ -1,0 +1,10 @@
+// How do invoke function?
+
+The code inside function is not executed when the function is defined. The code inside function is executed when the function is invoked 
+
+function myFunction(a, b) {
+  return a * b;
+}
+myFunction(10, 2); 
+
+
