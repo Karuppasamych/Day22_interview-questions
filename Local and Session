@@ -1,0 +1,24 @@
+The difference between sessionStorage and localStorage is that localStorage data does not expire,
+whereas sessionStorage data is cleared when the page session ends.
+A unique page session gets created once a document is loaded in a browser tab. Page sessions are valid for only one tab at a time.
+
+localStorage.setItem(key, value)
+
+localStorage.getItem(key)
+
+localStorage.removeItem(key)
+
+localStorage.clear()
+
+
+// Session
+====================
+
+sessionStorage.setItem(key, value)
+
+sessionStorage.getItem(key)
+
+sessionStorage.removeItem(key)
+
+sessionStorage.clear()
+
