@@ -1,0 +1,8 @@
+let show = function() {
+    console.log('Anonymous function');
+};
+
+show();
+
+In this example, the anonymous function has no name between the function keyword and parentheses (). 
+Because we need to call the anonymous function later, we assign the anonymous function to the show variable.
