@@ -1,0 +1,4 @@
+// Difference between break and continue.
+
+The main difference between break and continue is that break is used for immediate termination of loop. 
+On the other hand, 'continue' terminate the current iteration and resumes the control to the next iteration of the loop.
