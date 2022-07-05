@@ -1,0 +1,32 @@
+// Function types?
+
+There are 3 types of functions
+  * Function Declaration
+  * Function Expression
+  * Arrow Function
+  
+  
+// Function declaration
+function add(a, b) {        
+    console.log(a + b);
+}
+ 
+// Calling a function
+add(2, 3);
+
+// Function Expression
+const add = function(a, b) {
+    console.log(a+b);
+}
+ 
+// Calling function
+add(2, 3);
+
+
+// Arrow Function
+// Single line of code
+let add = (a, b) => a + b;
+ 
+console.log(add(3, 2));
+
+// Arrow Function
